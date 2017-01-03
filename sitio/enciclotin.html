@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Sitio web de Tintero con juegos gratis divertidos, humor, lecturas, noticias, material para la escuela, fotos, láminas para descargar y para colorear.">
+<title>Tintero. Interactivo y educativo para chicos, padres y docentes.</title>
+<meta name="author" content="Diario Los Andes">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="http://www.tintero.com.ar/">
+<!--Geo Tags-->
+<meta name="geo.region" content="AR-M"/>
+<meta name="geo.placename" content="Mendoza"/>
+<meta name="geo.position" content="-32.889459;-68.845839"/>
+<meta name="ICBM" content="-32.889459, -68.845839"/>
+<!--OpenGraph-->
+<meta property="og:type" content="website"/>
+<meta property="og:site_name" content="Tintero"/>
+<meta property="og:title" content="Tintero. Interactivo y educativo para chicos, padres y docentes."/>
+<meta name="og:description" content="Sitio web de Tintero con juegos gratis divertidos, humor, lecturas, noticias, material para la escuela, fotos, láminas para descargar y para colorear."/>
+<meta property="og:image" content="img/tintero-portada.jpg"/>
+<meta property="og:url" content="http://www.tintero.com.ar"/>
+<!--Twitter OpenGraph-->
+<meta property="twitter:card" content="summary"/>
+<meta property="twitter:site" content="@TinteroWeb"/>
+<meta property="twitter:title" content="Tintero. Interactivo y educativo para chicos, padres y docentes."/>
+<meta property="twitter:description" content="Sitio web de Tintero con juegos gratis divertidos, humor, lecturas, noticias, material para la escuela, fotos, láminas para descargar y para colorear."/>
+<meta property="twitter:image" content="img/tintero-portada.jpg"/>
+<meta property="twitter:url" content="http://www.tintero.com.ar"/>
+<!-- Íconos y Favicon -->
+<link rel="apple-touch-icon" sizes="57x57" href="img/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="img/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="img/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="img/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="img/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="img/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="img/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="img/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="img/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192" href="img/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="img/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+<link rel="manifest" href="img/manifest.json">
+<meta name="msapplication-TileColor" content="#c20003">
+<meta name="msapplication-TileImage" content="img/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<link rel="shortcut icon" href="img/favicon.ico"/>
+<link rel="icon" href="img/favicon.ico" type="image/x-icon">
+<!--Fuentes y Estilos-->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/estilos.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Delius|Gochi+Hand" rel="stylesheet">
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<!-- Efecto espacio -->
+<div id="espacio">
+</div>
+<!-- cabecera -->
+<header class="header">
+<div class="buscador-top">
+	<a class="btn btn-info " data-toggle="modal" data-target="#buscador1">
+	<span>BUSCAR</span><img src="img/icon-buscar.png" width="36" height="36" alt=""/></a>
+	<!-- Buscador -->
+	<div class="modal fade" id="buscador1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span class="glyphicon glyphicon-remove-circle" aria-hidden="true"></span></button>
+					<h4 class="modal-title" id="myModalLabel">¿Qué estás buscando?</h4>
+				</div>
+				<div class="modal-body">
+					<form>
+						<div class="form-group">
+							<input type="text" class="form-control" placeholder="Escribe aquí">
+						</div>
+						<div class="form-group">
+							<button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search" aria-hidden="true"></span> BUSCAR</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Íconos redes -->
+<div class="redes">
+	<a href="https://www.facebook.com/TinteroLosAndes/" target="_blank"><img src="img/icon-facebook.png" alt="Síguenos en Facebook" title="Síguenos en Facebook"/></a><a href="https://twitter.com/tinteroweb" target="_blank"><img src="img/icon-twitter.png" alt="Síguenos en Twitter" title="Síguenos en Twitter"/></a><a href="https://www.youtube.com/channel/UCtnMxVf9SWIreM33InvU7rA" target="_blank"><img src="img/icon-youtube.png" alt="Síguenos en YouTube" title="Síguenos en YouTube"/></a><a href="" target="_blank"><img src="img/icon-instagram.png" alt="Síguenos en Instagram" title="Síguenos en Instagram"/></a>
+</div>
+<!-- Logo -->
+<div class="logo">
+	<a href="index.html"><img src="img/tintero.png" alt="Tintero" title="Tintero"/></a>
+</div>
+<!-- menu -->
+<div class="curva-sup">
+</div>
+<nav class="navbar menu-principal">
+<div class="container">
+	<div class="navbar-header">
+		<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+		<span class="sr-only">Toggle navigation</span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+		</button>
+		<div class="ver">
+			 Ver todo
+		</div>
+	</div>
+	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		<ul class="nav navbar-nav">
+			<li><a href="index.html"><i class="icon-1"></i>Inicio</a></li>
+			<li class="dropdown">
+			<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="icon-2"></i> Diversión <span class="caret"></span></a>
+			<ul class="dropdown-menu">
+				<li><a href="juegos.html">Juegos</a></li>
+				<li><a href="humor.html">Humor</a></li>
+				<li><a href="saludos.html">Saludos</a></li>
+			</ul>
+			</li>
+			<li class="dropdown">
+			<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="icon-3"></i> Lecturas <span class="caret"></span></a>
+			<ul class="dropdown-menu">
+				<li><a href="paraelcole.html">Para el cole</a></li>
+				<li><a href="chicos-periodistas.html">Chicos periodistas</a></li>
+				<li><a href="visitas-diario.html">Visitas al diario</a></li>
+				<li><a href="info-copada.html">Info copada</a></li>
+				<li><a href="noticias.html">Noticias</a></li>
+				<li><a href="proyecto-cuyun.html">Proyecto Cuyún</a></li>
+				<li class="active"><a href="enciclotin.html">Enciclotin</a></li>
+			</ul>
+			</li>
+			<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="icon-4"></i> Actividades <span class="caret"></span></a>
+			<ul class="dropdown-menu">
+				<li><a href="magia.html">Magia</a></li>
+				<li><a href="recetas.html">Recetas</a></li>
+				<li><a href="buscador.html">Buscador</a></li>
+				<li><a href="paso-a-paso.html">Paso a paso</a></li>
+			</ul>
+			</li>
+			<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="icon-6"></i> Participá<span class="caret"></span></a>
+			<ul class="dropdown-menu">
+				<li><a href="concursos.html">Concursos</a></li>
+				<li><a href="sorteos.html">Sorteos</a></li>
+				<li><a href="encuestas.html">Encuestas</a></li>
+				<li><a href="maraton.html">Maratón</a></li>
+				<li><a href="becas.html">Becas</a></li>
+			</ul>
+			</li>
+			<li class="dropdown">
+			<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="icon-5"></i> Tinterito <span class="caret"></span></a>
+			<ul class="dropdown-menu">
+				<li><a href="cuentos-tin.html">Cuentos Tin</a></li>
+				<li><a href="para-colorear.html">Para colorear</a></li>
+			</ul>
+			</li>
+		</ul>
+	</div>
+</div>
+</nav>
+</header>
+<div class="curva-inf">
+</div>
+<!-- Cuerpo Home -->
+<div id="enciclotin">
+	<div>
+		<div class="container-fluid">
+			<div class="row">
+				<!-- columna central -->
+				<div class="col-md-8">
+					<ol class="breadcrumb">
+						<li><a href="index.html">Inicio</a></li>
+						<li class="active">Lecturas</li>
+						<li class="active">Enciclotin</li>
+					</ol>
+					<h1 class="tit-seccion"> Enciclotin</h1>
+					<div class="descripcion-seccion">
+						 Una completa guía de temas de la A a la Z.
+					</div>
+					<div class="buscador">
+						<div class="az">
+							<ul>
+								<li><a href="#">A</a></li>
+								<li><a href="#">B</a></li>
+								<li><a href="#">C</a></li>
+								<li><a href="#">CH</a></li>
+								<li><a href="#">D</a></li>
+								<li><a href="#">E</a></li>
+								<li><a href="#">F</a></li>
+								<li><a href="#">G</a></li>
+								<li><a href="#">H</a></li>
+								<li><a href="#">I</a></li>
+								<li><a href="#">J</a></li>
+								<li><a href="#">K</a></li>
+								<li><a href="#">L</a></li>
+								<li><a href="#">LL</a></li>
+								<li><a href="#">M</a></li>
+								<li><a href="#">N</a></li>
+								<li><a href="#">Ñ</a></li>
+								<li><a href="#">O</a></li>
+								<li><a href="#">P</a></li>
+								<li><a href="#">Q</a></li>
+								<li><a href="#">R</a></li>
+								<li><a href="#">S</a></li>
+								<li><a href="#">T</a></li>
+								<li><a href="#">U</a></li>
+								<li><a href="#">V</a></li>
+								<li><a href="#">W</a></li>
+								<li><a href="#">X</a></li>
+								<li><a href="#">Y</a></li>
+								<li><a href="#">Z</a></li>
+							</ul>
+						</div>
+						<a class="btn btn-primary ce" role="button" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+						<span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span> ¿BUSCAS ALGÚN TEMA EN PARTICULAR? </a>
+						<div class="collapse" id="collapseExample">
+							<div class="well busqueda-avanzada center-block">
+								<form>
+									<div class="form-group">
+										<input type="text" class="form-control" placeholder="Escribe aquí">
+									</div>
+									<div class="form-group">
+										<label class="radio-inline">
+										<input type="radio" name="secciones" id="seccion" value="option1"> Buscar sólo en "Enciclotin" </label>
+										<label class="radio-inline">
+										<input type="radio" name="secciones" id="todas" value="option2"> Buscar en todo el sitio </label>
+									</div>
+									<div class="form-group">
+										<button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search" aria-hidden="true"></span> BUSCAR</button>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 col-sm-12">
+							<div class="letra">
+								M
+							</div>
+							<div class="articulos">
+								<div class="row">
+									<div class="col-md-9 col-sm-9">
+										<h2><a href="desarrollo.html">Metamorfosis</a></h2>
+										<p>
+											Metamorfosis, en zoología, cambios anatómicos notables que ocurren durante el transcurso de la vida de algunos animales <a href="desarrollo.html" class="leer-mas"><span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span> Ver más </a>
+										</p>
+									</div>
+									<div class="col-md-3 col-sm-3">
+										<div class="img-articulos">
+											<img src="img/enciclotin1.jpg" alt="Salud Dental" class="img-responsive"/>
+										</div>
+									</div>
+									<div class="cierre">
+									</div>
+								</div>
+							</div>
+							<div class="articulos">
+								<div class="row">
+									<div class="col-md-9 col-sm-9">
+										<h2><a href="desarrollo.html">Mamíferos acuáticos</a></h2>
+										<p>
+											Los mamíferos acuáticos, en general, tienen pulmones grandes y sistemas venosos complejos para el almacenamiento de gran cantidad de sangre.<a href="desarrollo.html" class="leer-mas"><span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span> Ver más </a>
+										</p>
+									</div>
+									<div class="col-md-3 col-sm-3">
+										<div class="img-articulos">
+											<img src="img/enciclotin2.jpg" alt="Salud Dental" class="img-responsive"/>
+										</div>
+									</div>
+									<div class="cierre">
+									</div>
+								</div>
+							</div>
+							<div class="letra">
+								N
+							</div>
+							<div class="articulos">
+								<div class="row">
+									<div class="col-md-9 col-sm-9">
+										<h2><a href="desarrollo.html">Metamorfosis</a></h2>
+										<p>
+											Metamorfosis, en zoología, cambios anatómicos notables que ocurren durante el transcurso de la vida de algunos animales <a href="desarrollo.html" class="leer-mas"><span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span> Ver más </a>
+										</p>
+									</div>
+									<div class="col-md-3 col-sm-3">
+										<div class="img-articulos">
+											<img src="img/enciclotin1.jpg" alt="Salud Dental" class="img-responsive"/>
+										</div>
+									</div>
+									<div class="cierre">
+									</div>
+								</div>
+							</div>
+							<div class="articulos">
+								<div class="row">
+									<div class="col-md-9 col-sm-9">
+										<h2><a href="desarrollo.html">Mamíferos acuáticos</a></h2>
+										<p>
+											Los mamíferos acuáticos, en general, tienen pulmones grandes y sistemas venosos complejos para el almacenamiento de gran cantidad de sangre.<a href="desarrollo.html" class="leer-mas"><span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span> Ver más </a>
+										</p>
+									</div>
+									<div class="col-md-3 col-sm-3">
+										<div class="img-articulos">
+											<img src="img/enciclotin2.jpg" alt="Salud Dental" class="img-responsive"/>
+										</div>
+									</div>
+									<div class="cierre">
+									</div>
+								</div>
+							</div>
+							<nav aria-label="...">
+							<ul class="pagination">
+								<li class="disabled"><a href="#" aria-label="Previous"><span aria-hidden="true">«</span></a></li>
+								<li class="active"><a href="#">1 <span class="sr-only">(current)</span></a></li>
+								<li><a href="#">2</a></li>
+								<li><a href="#">3</a></li>
+								<li><a href="#">4</a></li>
+								<li><a href="#">5</a></li>
+								<li><a href="#" aria-label="Next"><span aria-hidden="true">»</span></a></li>
+							</ul>
+							</nav>
+						</div>
+					</div>
+				</div>
+				<!-- columna derecha -->
+				<div class="col-md-4">
+					<div class="row">
+						<!-- Widget Facebook -->
+						<div class=" col-md-12 col-sm-12 col-xs-12">
+							<div class="tin-facebook">
+								<img src="img/seguime.png" alt="Seguime en Facebook"/>
+							</div>
+							<div class="widget-facebook center-block">
+								<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FTinteroLosAndes%2F&tabs&width=300&height=214&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=360299570987393" width="300" height="214" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowtransparency="true">
+								</iframe>
+							</div>
+						</div>
+						<!-- publi 300x250 -->
+						<div class=" col-md-12 col-sm-12 col-xs-12">
+							<div class="publi-300x250">
+								<script type="text/javascript">eplAD4M("Box1");</script>
+								<div id="eplAdDivBox1">
+									<a href="http://ads.e-planning.net/ei/3/4b58/Tintero/Box1?rnd=0.6553701254906781&pb=ee3e60f71b94f625&fi=52d46ac13a5e2297&ur=http%3A//tintero.wpstagecoach.com/" target="_blank"><img src="http://ar.img.e-planning.net/esb/4/1/40a9/5b38180a124f4c44.gif" id="eplad_Box1_ee3e60f71b94f625_image" name="eplad_Box1_ee3e60f71b94f625_image" border="0" width="300" height="250" alt="fACTURA 300*250"></a>
+								</div>
+							</div>
+						</div>
+						<!-- Encuesta -->
+						<div class="col-md-12 col-sm-12 col-xs-12">
+							<div class="tin-encuesta">
+								<img src="img/encuesta.png" alt="Dejá tu opinión"/>
+							</div>
+							<div class="encuesta">
+								<div class="pregunta">
+									 ¿Cuál es tu deporte favorito?
+								</div>
+								<form>
+									<div class="radio">
+										<label>
+										<input type="radio" name="deportefavorito" id="fultbol" value="fultbol" checked>
+										Fútbol </label>
+									</div>
+									<div class="radio">
+										<label>
+										<input type="radio" name="deportefavorito" id="rugby" value="rugby">
+										Rugby </label>
+									</div>
+									<div class="radio">
+										<label>
+										<input type="radio" name="deportefavorito" id="voley" value="voley">
+										Voley </label>
+									</div>
+									<div class="radio">
+										<label>
+										<input type="radio" name="deportefavorito" id="basquet" value="basquet">
+										Basquet </label>
+									</div>
+									<div class="radio">
+										<label>
+										<input type="radio" name="deportefavorito" id="hockey" value="hockey">
+										Hockey </label>
+									</div>
+									<div class="radio">
+										<label>
+										<input type="radio" name="deportefavorito" id="otro" value="otro">
+										Otro </label>
+									</div>
+									<button type="submit" class="btn btn-default">¡VOTAR!</button>
+								</form>
+								<div class="ver-encuestas">
+									<p>
+										<a href="encuestas.html" class="btn btn-info btn-sm">VER MÁS ENCUESTAS</a>
+									</p>
+								</div>
+							</div>
+						</div>
+						<!-- publi 300x600 -->
+						<div class="col-md-12 col-sm-6 col-xs-12">
+							<div class="publi-300x600">
+								<script type="text/javascript">eplAD4M("Box2");</script>
+								<div id="eplAdDivBox2">
+									<a href="http://ads.e-planning.net/ei/3/4b58/Tintero/Box2?rnd=0.6553701254906781&amp;pb=c805b0f788dcf60a&amp;fi=52d46ac13a5e2297&amp;ur=http%3A//tintero.wpstagecoach.com/" target="_blank"><img src="http://ar.img.e-planning.net/esb/4/1/40a9/fc5f76519ee41084.gif" id="eplad_Box2_c805b0f788dcf60a_image" name="eplad_Box2_c805b0f788dcf60a_image" border="0" width="300" height="600" alt="Ledbanner set-16 300x600"></a>
+								</div>
+							</div>
+						</div>
+						<div class="cierre">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<footer class="container-fluid footer">
+<div class="container">
+	<img src="img/losandes.png" alt=""/><br>
+	 © 2017 Todos los derechos reservados.
+</div>
+</footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<!-- Para material de descarga -->
+<script src="js/modernizr.custom.js"></script>
+<script src="js/grid.js"></script>
+<script>
+			$(function() {
+				Grid.init();
+			});
+		</script>
+</body>
+</html>
